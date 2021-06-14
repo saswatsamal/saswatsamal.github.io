@@ -1,0 +1,99 @@
+@import url('https://allfont.net/allfont.css?fonts=league-spartan');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+:root {
+    --bgColor:#1C1C1C;
+    --accentColor: #E6E6E6;
+    --font:  'League Spartan Bold', arial;
+}
+
+html,body{
+    background-color: #000000; 
+}
+
+.head{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 150px;
+}
+.container{
+    position: fixed;
+    top: 230px;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0.1vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+ .footer-link {
+    color: white;
+    text-decoration: none;
+ }
+#userPhoto{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+#userName{
+    color: #bbb;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 200px;
+}
+
+#Name{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height:0;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#links{
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+.link{
+    display: block;
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+    font-family:'Karla', sans-serif; ;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border: solid var(--accentColor) 2px;
+}
+
+.link:hover{
+    background-color: var(--bgColor);
+    color: var(--accentColor);
+}
