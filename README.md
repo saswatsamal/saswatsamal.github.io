@@ -1,4 +1,4 @@
-<p align="center"><a href="https://saswatsamal.is-a.dev/"/><img src="https://img.shields.io/badge/Visit-black?style=for-the-badge&logo=google-chrome" /></p>
+<p align="center"><a href="https://saswatsamal.social/"/><img src="https://img.shields.io/badge/Visit-black?style=for-the-badge&logo=google-chrome" /></p>
 
 <p align="center">
 <img src="https://img.shields.io/github/languages/code-size/saswatsamal/saswatsamal.github.io?color=black&logo=python&logoColor=green&style=for-the-badge" />
