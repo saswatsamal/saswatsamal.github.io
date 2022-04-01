@@ -43,5 +43,20 @@
 <section class="footer">
     <p id="Name"> &copy; <a class="footer-link" href="https://saswatsamal.tech/" target="blank">saswatsamal.</a></p>
 </section>
+<section id="accept-cookies">
+    <div class="alert">
+        <p>This site uses Google Analytics for optimization and site improvement.
+        <button class="accept-cookies-button">Accept</button>  
+        </p>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".accept-cookies-button").click(function(){
+    $("#accept-cookies").fadeOut();
+  });
+});
+</script>
 </body>
 </html>

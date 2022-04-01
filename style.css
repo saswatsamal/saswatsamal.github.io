@@ -3,6 +3,7 @@
     --bgColor:#1C1C1C;
     --accentColor: #E6E6E6;
     --font:   arial;
+    --orange: #FF8C00;
 }
 
 html,body{
@@ -102,4 +103,28 @@ html,body{
 .link:hover{
     background-color: var(--bgColor);
     color: var(--accentColor);
+}
+
+.alert{
+    position: fixed;
+    bottom: 0px;
+    background-color:#bbb;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 0px 10px 15px 10px;
+    height: 50px;
+}
+.alert p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alert button{
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border: solid var(--accentColor) 2px;
+    border-radius: 0px;
 }
